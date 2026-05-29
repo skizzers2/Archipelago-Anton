@@ -24,7 +24,7 @@
         "Ring-a-Ding"
     ],
 
-    "limetrials": [
+    "lime_trials": [
         "Shark Tank",
         "Lime's a Beach",
         "Distilled Hill",
@@ -32,20 +32,17 @@
     ],
 
     "level_locations": [
-        "Spray Can",
+        "Spraycan",
         "Cassette",
-        "Spade Detonator",
-        "Club Detonator",
-        "Heart Detonator",
-        "Diamond Detonator",
+        "Blue Detonator",
+        "Green Detonator",
+        "Red Detonator",
+        "Yellow Detonator",
         "Danton",
-        "Complete"
-    ],
-
-    "level_locations_misc": [
+        "Complete",
         "Paul",
         "Par Time",
-        "Combo Chain",
+        "Combo Chain Complete",
         "CRACKED"
     ],
 
@@ -110,7 +107,7 @@
         "Chainsaw Mech"
     ],
 
-    "items": {
+    "item_names_to_id": {
         "Progressive Health Upgrade": 1,
         "Permanent +1% Blast Bar Fill": 2,
         "1000 Chips": 3,
