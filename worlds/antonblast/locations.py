@@ -1,6 +1,5 @@
 from BaseClasses import Location
 import json
-import pprint
 
 class AntonLocation(Location):
     game = "ANTONBLAST"
@@ -208,17 +207,22 @@ location_name_to_id: dict[str, int] = {
     "Crimson Factory: CRACKED":                                      169,
     "The Mysterious Glasshouse: CRACKED":                            170,
     "Devilled Gardens: CRACKED":                                     171,
-    "Hell Manor: CRACKED":                                           172
+    "Hell Manor: CRACKED":                                           172,
+
+    # this jit cracks bosses
+    "Brawlbuster: CRACKED":                                          173,
+    "Tallbuster: CRACKED":                                           174,
+    "Smallbuster: CRACKED":                                          175,
+    "Maulbuster: CRACKED":                                           176,
+    "Jewel Ghoul: CRACKED":                                          177,
+    "Freako Dragon: CRACKED":                                        178,
+    "Ring-a-Ding: CRACKED":                                          179,
+
+    # lime trials
+    "Lime Trial: Shark Tank":                                        180,
+    "Lime Trial: Lime's a Beach":                                    181,
+    "Lime Trial: Distilled Hill":                                    182,
+    "Lime Trial: Rubble Rumble":                                     183,
+
+    # shop locations; figure this out later
 }
-
-location_counter = 173
-
-
-for check in anton_data["level_locations"]:
-    for level in anton_data["levels"]:
-        if (level + ": " + check not in location_name_to_id.keys()) and not (check == "Danton" and level in ["The Big Bath", "Devilled Gardens", "Hell Manor"]):
-            location_name_to_id[level + ": " + check] = location_counter
-            location_counter += 1
-
-for k in location_name_to_id.keys():
-    print(f'{"\""+k+"\""+":": <64} {location_name_to_id[k]},')
