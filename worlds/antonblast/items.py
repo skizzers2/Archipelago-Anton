@@ -14,9 +14,9 @@ item_name_to_id: dict[str, int] = {
     "Hammer Vault":                                                  3,
     "Antomic Blast":                                                 4,
     "Swim Clutch":                                                   5,
+    "Roll":                                                          6,
 
-    #transfos
-    "Ball":                                                          6,
+    # transfos
     "Sewer Shark":                                                   7,
     "Tornado":                                                       8,
     "Bomb":                                                          9,

@@ -224,5 +224,9 @@ location_name_to_id: dict[str, int] = {
     "Lime Trial: Distilled Hill":                                    182,
     "Lime Trial: Rubble Rumble":                                     183,
 
+    # satan
+    "Satan: Defeated":                                               184,
+    "Satan: CRACKED":                                                185,
+
     # shop locations; figure this out later
 }
